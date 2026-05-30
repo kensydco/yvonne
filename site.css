@@ -238,6 +238,18 @@ html.js .reveal.in{ opacity:1; transform:none; }
   *{ scroll-behavior:auto; }
 }
 
+/* LeadHER brand name treatment */
+.her{ font-family:var(--serif); font-style:italic; color:var(--bronze-dk); }
+.tm{ font-size:.55em; vertical-align:super; color:var(--bronze-dk); letter-spacing:.02em; }
+.nav.on-dark .her,.nav.on-dark .tm,
+.leadher-feature .her,.leadher-feature .tm,
+.footer .her,.footer .tm,
+.closing .her,.closing .tm,
+.cta-band .her,.cta-band .tm,
+.page-hero .her,.page-hero .tm,
+.statband .her,.statband .tm,
+.event-right .her,.event-right .tm{ color:var(--bronze-lt); }
+
 /* Generic page hero (interior) */
 .page-hero{ background:var(--navy); color:var(--cream); position:relative; overflow:hidden; }
 .page-hero .bp{ position:absolute; inset:0; opacity:.55; }
