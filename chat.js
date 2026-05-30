@@ -3,7 +3,7 @@
  * Replace WORKER_URL with your deployed Cloudflare Worker URL.
  */
 (function () {
-  const WORKER_URL = 'https://YOUR_WORKER.YOUR_SUBDOMAIN.workers.dev';
+  const WORKER_URL = 'https://yvonne-chat.klburnett.workers.dev';
 
   const OPENER = [
     "Hi! I'm Yvonne's assistant. Ask me about her services, LeadHER CRE, or The Commercial Pivot.",
