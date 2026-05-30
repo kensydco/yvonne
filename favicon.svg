@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <rect width="500" height="500" rx="72" fill="#0c2233"/>
+  <!-- H in cream, italic, rendered first (behind) -->
+  <text x="242" y="400"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="368"
+        font-style="italic"
+        font-weight="400"
+        fill="#f6f0e4">H</text>
+  <!-- L in gold, upright, rendered second (in front) -->
+  <text x="44" y="400"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="368"
+        font-weight="400"
+        fill="#b5884b">L</text>
+</svg>
