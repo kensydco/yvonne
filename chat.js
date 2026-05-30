@@ -45,15 +45,15 @@
     }
     #lh-chat-head .lh-avatar {
       width: 36px; height: 36px; border-radius: 50%;
-      background: #1a3348; border: 1.5px solid #b5884b;
-      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-      font-family: Georgia, serif; font-size: 14px; font-weight: 700;
-      color: #f6f0e4; letter-spacing: -.01em;
+      flex-shrink: 0; overflow: hidden; border: 1.5px solid #b5884b;
+      display: block; object-fit: cover;
     }
     #lh-chat-head .lh-hd-name {
       font-family: 'Hanken Grotesk', sans-serif; font-size: 14px;
       font-weight: 600; color: #f6f0e4; letter-spacing: .01em;
     }
+    #lh-chat-head .her { color: #cba867; font-style: italic; font-family: Georgia, serif; }
+    #lh-chat-head .tm  { font-size: .6em; vertical-align: super; color: #cba867; }
     #lh-chat-head .lh-hd-sub {
       font-family: 'Hanken Grotesk', sans-serif; font-size: 11px;
       color: #b5884b; letter-spacing: .04em; text-transform: uppercase;
@@ -140,10 +140,10 @@
   panel.setAttribute('aria-label', 'Chat assistant');
   panel.innerHTML = `
     <div id="lh-chat-head">
-      <div class="lh-avatar">LH</div>
+      <img src="favicon.svg" class="lh-avatar" alt="LeadHER CRE">
       <div>
-        <div class="lh-hd-name">LeadHER CRE Assistant</div>
-        <div class="lh-hd-sub">Powered by Yvonne's knowledge</div>
+        <div class="lh-hd-name">Lead<span class="her">HER</span><sup class="tm">™</sup> CRE Assistant</div>
+        <div class="lh-hd-sub">Powered by Yvonne Spencer</div>
       </div>
     </div>
     <div id="lh-chat-msgs"></div>
